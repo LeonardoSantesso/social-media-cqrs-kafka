@@ -11,6 +11,10 @@
 		<ProjectReference Include="..\Post.Cmd.Domain\Post.Cmd.Domain.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Producers\" />
+	</ItemGroup>
+
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
