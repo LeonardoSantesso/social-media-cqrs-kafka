@@ -32,9 +32,6 @@ namespace Post.Cmd.Infrastructure.Stores
         {
             var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
 
-            if (eventStream == null || !eventStream.Any())
-                throw new AggregateNotFoundException("Incorrect post ID provided!");
-
             if (expectedVersion != -1 && eventStream[^1].Version != expectedVersion)
                 throw new ConcurrencyException();
 

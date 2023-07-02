@@ -67,7 +67,7 @@ namespace Post.Query.Infrastructure.Handlers
 
         public async Task On(CommentUpdatedEvent @event)
         {
-            var comment = await _commentRepository.GetByIdAsync(@event.Id);
+            var comment = await _commentRepository.GetByIdAsync(@event.CommentId);
 
             if (comment == null) return;
 
@@ -80,7 +80,7 @@ namespace Post.Query.Infrastructure.Handlers
 
         public async Task On(CommentRemovedEvent @event)
         {
-            await _commentRepository.DeleteAsync(@event.Id);
+            await _commentRepository.DeleteAsync(@event.CommentId);
         }
 
         public async Task On(PostRemovedEvent @event)
