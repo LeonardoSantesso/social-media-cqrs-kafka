@@ -2,21 +2,6 @@
 This project is an experimental full-stack application I use to combine several cutting-edge technologies and architectural patterns. Thanks for getting here! please <b>give a ⭐</b> if you liked the project. It motivates me to keep improving it.
 <br><br>
 
-<a href="images/ecommerceddd-1.gif" target="_blank">
-<img src="images/ecommerceddd-1.gif" width="600px"/>
-</a>
-
-<a href="images/ecommerceddd-2.gif" target="_blank">
-<img src="images/ecommerceddd-2.gif" width="600px"/>
-</a>
-
-<a href="images/ecommerceddd-3.gif" target="_blank">
-<img src="images/ecommerceddd-3.gif" width="600px"/>
-</a>
-
-<br/><br/>
-
-
 ## Architecture
 The overall architecture is organized with `CQRS.Core`, `Post Command` and `Post Query`.
 
