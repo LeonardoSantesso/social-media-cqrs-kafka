@@ -1,6 +1,3 @@
-![Build](https://github.com/falberthen/ecommerceddd/actions/workflows/ecommerceddd-build.yml/badge.svg)
-[![License](https://img.shields.io/github/license/falberthen/ecommerceddd.svg)](LICENSE)
-
 ## Welcome to Social Media with CQRS, Kafka, EventSourcing and Microservices with .NET
 This project is an experimental full-stack application I use to combine several cutting-edge technologies and architectural patterns. Thanks for getting here! please <b>give a ⭐</b> if you liked the project. It motivates me to keep improving it.
 <br><br>
@@ -21,38 +18,21 @@ This project is an experimental full-stack application I use to combine several 
 
 
 ## Architecture
-The overall architecture is organized with `Core`, `Crosscutting` and `Services`.
+The overall architecture is organized with `CQRS.Core`, `Post Command` and `Post Query`.
 
-### Core
+### CQRS.Core
 It defines all the building blocks and abstractions to be used on every underlying project.
 
-### Core.Infrastructure
+### Post Command
 It implements infrastructure matters to be used by microservices. Also, it centralizes third-party packages.
 
-### Crosscutting
+### Post Query
 It contains projects with logic needed to cross over the microservices, such as `IdentityServer` and `API gateway`.
 
 <br/>
 
-### Services
-The microservices composing the back-end, are built to be as simple as possible, structured with `Domain`, `Application`, `API`, `Infrastructure`.
-
-#### - Domain
-
-This is where the business logic resides, with a structured implementation of the domain through aggregates, commands, value objects, domain services, repository definitions, and domain events.
-
-#### - Application
-
-It orchestrates the interactions between the external world and the domain to perform application tasks through use cases by handling commands and queries. 
-
-#### - Infrastructure
-
-It acts as a supporting library for higher layers. It handles infrastructural matters and data persistence.
-
-<br/>
-
 ### Presentation
-A lightweight Angular-based `SPA` providing a functional and user-friendly UI.
+No presentations, only Api calls.
 
 <br/>
 
@@ -62,7 +42,7 @@ A lightweight Angular-based `SPA` providing a functional and user-friendly UI.
     <a href='https://get.asp.net' target="_blank">ASP.NET</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx' target="_blank">C# 10</a>
     for cross-platform back-end with:
     <ul>
-      <li>.NET 7</li>
+      <li>.NET 6</li>
       <li>Ocelot 19.0.2</li>
       <li>Marten 6.0.2</li>
       <li>Entity Framework Core 7.0.8</li>
