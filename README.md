@@ -14,12 +14,8 @@ It implements infrastructure matters to be used by microservices. Also, it centr
 ### Post Query
 It contains projects with logic needed to cross over the microservices, such as `IdentityServer` and `API gateway`.
 
-<br/>
-
 ### Presentation
 No presentations, only Api calls.
-
-<br/>
 
 ## Technologies used
 <ul>
