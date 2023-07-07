@@ -1,7 +1,7 @@
 ![Build](https://github.com/falberthen/ecommerceddd/actions/workflows/ecommerceddd-build.yml/badge.svg)
 [![License](https://img.shields.io/github/license/falberthen/ecommerceddd.svg)](LICENSE)
 
-## Welcome to Ecommerce DDD
+## Welcome to Social Media with CQRS, Kafka, EventSourcing and Microservices with .NET
 This project is an experimental full-stack application I use to combine several cutting-edge technologies and architectural patterns. Thanks for getting here! please <b>give a ⭐</b> if you liked the project. It motivates me to keep improving it.
 <br><br>
 
