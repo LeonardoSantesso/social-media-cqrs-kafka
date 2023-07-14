@@ -64,11 +64,8 @@ The project was designed to be easily run within docker containers, hence all yo
 - Download Docker: <a href="https://docs.docker.com/docker-for-windows/wsl/" target="_blank">Docker Desktop with support for WLS 2</a>
     
 <br/>
-
-Using a terminal, run:
+After installing Docker, in your PowerShell terminal, access the project folder named "Docker" and execute the following command:
 
 ```console
- $ docker-compose up
+ $ docker-compose -f docker-compose-complete.yml -p social-media-cqrs-kafka up -d
 ``` 
-
-You can also set the `docker-compose.dcproj` as a Startup project on Visual Studio if you want to run it while debugging. 
