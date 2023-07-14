@@ -20,35 +20,28 @@ No presentations, only Api calls.
 ## Technologies used
 <ul>
   <li>
-    <a href='https://get.asp.net' target="_blank">ASP.NET</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx' target="_blank">C# 10</a>
-    for cross-platform back-end with:
+    <a href='https://get.asp.net' target="_blank">APIs with ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx' target="_blank">C# 10</a>
+    with:
     <ul>
       <li>.NET 6</li>
-      <li>Ocelot 19.0.2</li>
-      <li>Marten 6.0.2</li>
-      <li>Entity Framework Core 7.0.8</li>
-      <li>Postgres for Entity Framework Core 7.0.4</li>
-      <li>ASP.NET Core Identity 7.0.8</li>
-      <li>ASP.NET Core Authentication JwtBearer 7.0.8</li>
-      <li>Duende IdentityServer 6.3.2</li>
-      <li>MediatR 12.0.1</li>
-      <li>Polly 7.2.4</li>
-      <li>Fluent Assertions 6.11.0</li>      
-      <li>XUnit 2.4.2</li>
-      <li>Moq 4.18.4</li>
-      <li>Swagger 6.5.0</li>
-      <li>Confluent Kafka 2.1.1</li>
+      <li>CQRS</li>
+      <li>Event Sourcing</li>
+      <li>Event Store with MongoDB</li>
+      <li>Event Versioning</li>
+      <li>Entity Framework Core (MS SQL and PostgreSQL)</li>
+      <li>Microservices C# with .NET</li>
+      <li>Apache Kafka as a Message Bus</li>
+      <li>Optimistic Concurrency Control</li>
+      <li>Microsoft SQL to Implement the Read Database</li>
+      <li>Database-Per-Service Pattern</li>
+      <li>Dependency Injection</li>
+      <li>DDD-Oriented Microservices</li>
+      <li>Docker</li>
       <li>Docker Compose</li>
+      <li>Entity Framework Core 7.0.8</li>      
+      <li>Swagger 6.5.0</li>            
     </ul>
-  </li>
-  <li>
-    <a href='https://angular.io/' target="_blank">Angular 16</a> and <a href='http://www.typescriptlang.org/' target="_blank">TypeScript</a> for the front-end with:
-    <ul>
-      <li>NgBootstrap / Bootstrap 5.2.3</li>
-      <li>Font Awesome</li>
-      <li>Toastr</li>
-    </ul>
-  </li>
+  </li>  
 </ul>
 
 <br/><br/>
